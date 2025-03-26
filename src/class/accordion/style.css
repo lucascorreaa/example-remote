@@ -1,0 +1,28 @@
+.accordion-container {
+    width: 100%;
+    border-top: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 72px;
+}
+
+.accordion-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: none;
+    border: none;
+}
