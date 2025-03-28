@@ -66,7 +66,8 @@ export default function ApiPokemon() {
   console.log(data);
 
   return (
-    <div className="">
+    <div className="pokedex">
+      <img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" alt="" />
       <h1>Busque seu Pokemon Favorito</h1>
       <input
         type="text"
